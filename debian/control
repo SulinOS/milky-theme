@@ -1,0 +1,13 @@
+Source: milky
+Section: utils
+Priority: optional
+Maintainer: Ali Riza Keskin <ali.riza.keskin@pardus.org.tr>
+Build-Depends: make
+Standards-Version: 2.0-sulin
+Homepage: https://gitlab.com/sulinos/look-and-feel/milky-theme
+
+Package: milky
+Architecture: all
+Depends: ${misc:Depends}, libc6
+Description: An icon theme.
+ Milky icon theme is pardus 2011 icon theme. Sulin community forked for gtk based desktops.
